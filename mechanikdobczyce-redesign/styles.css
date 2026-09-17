@@ -301,14 +301,6 @@ section { padding: 5.5rem 1.5rem; }
 
 .map-embed { border-radius: var(--radius); overflow: hidden; border: 1px solid rgba(20,23,28,0.12); }
 .map-embed iframe { display: block; }
-.map-embed-link {
-  display: flex; align-items: center; justify-content: center; gap: .6em;
-  height: 280px; background: rgba(20,23,28,0.04);
-  font-family: var(--font-mono); font-size: 0.9rem; text-transform: uppercase; letter-spacing: .05em;
-  color: var(--ink); text-decoration: none; transition: background .2s ease, color .2s ease;
-}
-.map-embed-link:hover { background: var(--blue-bright); color: #fff; }
-.map-embed-icon { font-size: 1.4rem; }
 
 .contact-form {
   background: var(--steel);
