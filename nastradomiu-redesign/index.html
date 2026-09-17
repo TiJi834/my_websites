@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Na Stradomiu — Kuchnia Polska w Myślenicach</title>
+<meta name="description" content="Restauracja Na Stradomiu w Myślenicach — domowa kuchnia polska od 1993 roku. Danie dnia, dania na wynos, przyjęcia rodzinne do 40 osób.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <img class="brand-logo" src="assets/images/logo-transparent.png" alt="Na Stradomiu — Kuchnia Polska, od 1993r.">
+    </a>
+    <nav class="main-nav" aria-label="Nawigacja główna">
+      <a href="#menu">Menu dnia</a>
+      <a href="#galeria">Wnętrze</a>
+      <a href="#przyjecia">Przyjęcia</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn-ghost header-cta" href="tel:+48539105945">539 105 945</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Otwórz menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Nawigacja mobilna">
+    <a href="#menu">Menu dnia</a>
+    <a href="#galeria">Wnętrze</a>
+    <a href="#przyjecia">Przyjęcia</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="tel:+48539105945">Zadzwoń: 539 105 945</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <canvas id="steamCanvas" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <p class="eyebrow">ul. Niepodległości 45 · Myślenice · od 1993 roku</p>
+      <h1 class="hero-title">
+        Smak,<br>
+        jak u <em>mamy</em> w&nbsp;domu.
+      </h1>
+      <p class="hero-lede">Od ponad trzydziestu lat gotujemy dla Myślenic i okolicy — sycące domowe obiady, dania na wynos i przyjęcia rodzinne w sercu miasta.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://www.facebook.com/NaStradomiu/" target="_blank" rel="noopener">Dzisiejsze menu na Facebooku</a>
+        <a class="btn btn-outline" href="tel:+48123768000">Zadzwoń: 12 376 80 00</a>
+      </div>
+    </div>
+    <div class="hero-photo" data-parallax>
+      <img src="assets/images/hero-daniedomowe.png" alt="Domowy obiad: kotlet schabowy z ziemniakami i surówką" loading="eager">
+      <span class="photo-tag">u nas, każdego dnia</span>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span>przewiń</div>
+  </section>
+
+  <!-- INFO STRIP -->
+  <section class="info-strip">
+    <div class="info-strip-inner">
+      <div class="info-item">
+        <span class="info-num">01</span>
+        <div>
+          <h3>Kuchnia polska</h3>
+          <p>Zupa, danie główne — klasyka bez zbędnych ozdobników, tak jak lubicie.</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-num">02</span>
+        <div>
+          <h3>Bez rezerwacji</h3>
+          <p>Wpadnij na obiad w tygodniu roboczym — miejsce zawsze się znajdzie.</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-num">03</span>
+        <div>
+          <h3>Blisko centrum</h3>
+          <p>Dwa kroki od Rynku w Myślenicach, łatwy dojazd i parking w pobliżu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU DNIA / WYNOS / PRZYJĘCIA -->
+  <section class="offer" id="menu">
+    <div class="section-head reveal">
+      <p class="eyebrow">Co u nas zjecie</p>
+      <h2>Trzy sposoby na dobry obiad</h2>
+    </div>
+
+    <div class="offer-grid">
+      <article class="offer-card reveal">
+        <div class="offer-photo">
+          <img src="assets/images/food-zupa.png" alt="Domowa zupa rosół z makaronem — przykład dania dnia" loading="lazy">
+        </div>
+        <div class="offer-body">
+          <h3>Danie dnia</h3>
+          <p class="offer-when">od poniedziałku do piątku</p>
+          <p>Zupa + drugie danie — sprawdzony zestaw na szybki, sycący obiad w tygodniu. Przykładowe dania: rosół, flaczki, kotlet schabowy, gulasz wieprzowy, bigos z pieczywem.</p>
+          <p class="offer-note">Aktualne menu i ceny każdego dnia publikujemy na <a href="https://www.facebook.com/NaStradomiu/" target="_blank" rel="noopener">Facebooku</a>.</p>
+        </div>
+      </article>
+
+      <article class="offer-card reveal">
+        <div class="offer-photo offer-photo--interior">
+          <img src="assets/images/enhanced/nastradomiu-06.jpg" alt="Lada z daniami na wynos w restauracji Na Stradomiu" loading="lazy">
+        </div>
+        <div class="offer-body">
+          <h3>Dania na wynos</h3>
+          <p class="offer-when">tylko z odbiorem własnym</p>
+          <p>Ten sam domowy smak, zapakowany na wynos — idealne na szybki lunch do pracy albo obiad bez gotowania. Zamów telefonicznie i odbierz na miejscu.</p>
+          <a class="text-link" href="tel:+48539105945">Zamów: 539 105 945 →</a>
+        </div>
+      </article>
+
+      <article class="offer-card reveal" id="przyjecia">
+        <div class="offer-photo offer-photo--interior">
+          <img src="assets/images/enhanced/nastradomiu-20.jpg" alt="Sala restauracyjna przygotowana na przyjęcie okolicznościowe" loading="lazy">
+        </div>
+        <div class="offer-body">
+          <h3>Przyjęcia okolicznościowe</h3>
+          <p class="offer-when">do 40 osób</p>
+          <p>Komunie, urodziny, imprezy rodzinne i firmowe spotkania — zorganizujemy poczęstunek i salę dopasowaną do okazji. Napisz lub zadzwoń, żeby ustalić szczegóły i termin.</p>
+          <a class="text-link" href="#kontakt">Zapytaj o termin →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="galeria">
+    <div class="section-head reveal gallery-head">
+      <div>
+        <p class="eyebrow">Nasza sala</p>
+        <h2>Wnętrze, w którym czujesz się jak u siebie</h2>
+      </div>
+      <div class="gallery-controls">
+        <button class="gallery-arrow" id="galleryPrev" aria-label="Poprzednie zdjęcie">←</button>
+        <span class="gallery-count"><span id="galleryIndex">1</span> / <span id="galleryTotal">26</span></span>
+        <button class="gallery-arrow" id="galleryNext" aria-label="Następne zdjęcie">→</button>
+      </div>
+    </div>
+    <div class="carousel reveal">
+      <div class="carousel-viewport" id="carouselViewport">
+        <div class="carousel-track" id="galleryTrack"></div>
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </section>
+
+  <!-- MAP + CONTACT -->
+  <section class="contact" id="kontakt">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p class="eyebrow">Odwiedź nas</p>
+        <h2>Napisz do nas</h2>
+        <p class="contact-text">Masz pytanie o przyjęcie, dania na wynos albo po prostu chcesz się przywitać? Wypełnij formularz — odpiszemy najszybciej jak to możliwe.</p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Adres</span>
+            <a href="https://maps.google.com/maps?ll=49.830799,19.940225&z=18&t=m&hl=pl&gl=PL" target="_blank" rel="noopener">ul. Niepodległości 45, 32-400 Myślenice</a>
+          </li>
+          <li>
+            <span class="contact-label">Telefon</span>
+            <a href="tel:+48123768000">12 376 80 00</a> / <a href="tel:+48539105945">539 105 945</a>
+          </li>
+          <li>
+            <span class="contact-label">E-mail</span>
+            <a href="mailto:biuro@nastradomiu.pl">biuro@nastradomiu.pl</a>
+          </li>
+          <li>
+            <span class="contact-label">Godziny otwarcia</span>
+            Pon–Pt: 10:00–19:00 · Sob–Ndz: 12:00–18:00
+          </li>
+          <li>
+            <span class="contact-label">Facebook</span>
+            <a href="https://www.facebook.com/NaStradomiu/" target="_blank" rel="noopener">facebook.com/NaStradomiu</a>
+          </li>
+        </ul>
+
+        <a class="map-embed map-embed-link" href="https://maps.google.com/maps?ll=49.830799,19.940225&z=18&t=m&hl=pl&gl=PL" target="_blank" rel="noopener">
+          <span class="map-embed-icon" aria-hidden="true">📍</span>
+          <span>Zobacz na Google Maps</span>
+        </a>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <h3>Formularz kontaktowy</h3>
+        <label>
+          <span>Imię i nazwisko</span>
+          <input type="text" name="name" autocomplete="name">
+        </label>
+        <label>
+          <span>Adres e-mail *</span>
+          <input type="email" name="email" required autocomplete="email">
+        </label>
+        <label>
+          <span>Wiadomość *</span>
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Wyślij wiadomość</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">Na Stradomiu</span>
+      <p>ul. Niepodległości 45, 32-400 Myślenice · tel. 12 376 80 00 / 539 105 945</p>
+      <p class="footer-tags">Kuchnia polska · Dania na wynos · Organizacja imprez okolicznościowych</p>
+    </div>
+    <div class="footer-links">
+      <a href="polityka-prywatnosci.html">Polityka Prywatności</a>
+      <a href="https://www.facebook.com/NaStradomiu/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </div>
+  <div class="footer-legal">
+    <img src="assets/images/pfr-info.png" alt="Informacja o wsparciu z Polskiego Funduszu Rozwoju" loading="lazy">
+    <p>© <span id="year"></span> Restauracja "Na Stradomiu" S.C. Anna Muniak, Katarzyna Muniak</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
